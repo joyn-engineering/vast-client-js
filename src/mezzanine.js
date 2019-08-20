@@ -2,7 +2,7 @@ export class Mezzanine {
     constructor () {
         this.id = null;
         this.fileURL = null;
-        this.deliveryType = 'progressive';
+        this.delivery = 'progressive';
         this.codec = null;
         this.type = null;
         this.width = 0;

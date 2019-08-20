@@ -165,7 +165,7 @@ export function parseCreativeLinear(creativeElement, creativeAttributes) {
         const mezzanine = new Mezzanine();
         mezzanine.id = mezzanineElement.getAttribute('id');
         mezzanine.fileURL = parserUtils.parseNodeText(mezzanineElement);
-        mezzanine.deliveryType = mezzanineElement.getAttribute('delivery');
+        mezzanine.delivery = mezzanineElement.getAttribute('delivery');
         mezzanine.codec = mezzanineElement.getAttribute('codec');
         mezzanine.type = mezzanineElement.getAttribute('type');
         mezzanine.width = parseInt(

@@ -294,7 +294,7 @@ describe('VASTParser', function() {
         });
 
         it('should have parsed mezzanine file attributes', () => {
-          linear.mezzanine.deliveryType.should.equal('progressive');
+          linear.mezzanine.delivery.should.equal('progressive');
           linear.mezzanine.type.should.equal('video/mp4');
           linear.mezzanine.width.should.equal(1080);
           linear.mezzanine.height.should.equal(720);

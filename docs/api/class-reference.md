@@ -79,7 +79,7 @@ This class represents a generic Creative. It's used as a parent class for more s
 
 ## Mezzanine<a name="mezzanine"></a>
 
-- `deliveryType: String` Either "progressive" for progressive download protocols (such as HTTP) or "streaming" for streaming protocols
+- `delivery: String` Either "progressive" for progressive download protocols (such as HTTP) or "streaming" for streaming protocols
 - `type: String` MIME type for the file container. Popular MIME types include, but are not limited to "video/mp4" for MP4, "audio/mpeg" and "audio/aac" for audio ads
 - `width: Number`
 - `height: Number`
